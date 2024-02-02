@@ -1,0 +1,14 @@
+[tool.poetry]
+name = "mesa-outstation"
+version = "0.1.0"
+description = "DNP3 Outstation for MESA comms testing"
+authors = ["Tylores <tylor.slay@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+dnp3-python = "0.2.3b3"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
